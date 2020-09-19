@@ -7,6 +7,7 @@ class Authors
     def get_author_by_book(id)
         self.class.get("/authors/books/#{id}")        
     end
+    
 
     def get_authors
         self.class.get('/api/Authors')        
